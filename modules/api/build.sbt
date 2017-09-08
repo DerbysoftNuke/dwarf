@@ -1,3 +1,5 @@
+name := "dwarf-akka-api"
+
 lazy val akkaVersion = "2.5.3"
 
 libraryDependencies ++= Seq(
