@@ -1,3 +1,10 @@
-#.idea
+.idea/
 *.iml
 target
+project/target
+modules/*/target
+.DS_Store
+modules/api/src/.DS_Store
+modules/api/src/test/
+native/
+sbt-dist/.DS_Store
