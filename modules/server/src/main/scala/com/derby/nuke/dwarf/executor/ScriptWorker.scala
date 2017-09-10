@@ -15,7 +15,7 @@ class ScriptWorker extends Actor with ActorLogging {
     case ScriptMessage(parameter) =>
       val result = compile(parameter.script).eval(parameter.scriptContext);
       log.debug(s"Result = $result");
-      result
+      sender() ! result
   }
 
   def compile(script: String): CompiledScript = {
