@@ -8,13 +8,13 @@
 //import Greeter._
 //import Printer._
 //
-////#test-classes
+////#admin-classes
 //class AkkaQuickstartSpec(_system: ActorSystem)
 //  extends TestKit(_system)
 //  with Matchers
 //  with FlatSpecLike
 //  with BeforeAndAfterAll {
-//  //#test-classes
+//  //#admin-classes
 //
 //  def this() = this(ActorSystem("AkkaQuickstartSpec"))
 //
@@ -22,7 +22,7 @@
 //    shutdown(system)
 //  }
 //
-//  //#first-test
+//  //#first-admin
 //  //#specification-example
 //  "A Greeter Actor" should "pass on a greeting message when instructed to" in {
 //    //#specification-example
@@ -34,6 +34,6 @@
 //    helloGreeter ! Greet
 //    testProbe.expectMsg(500 millis, Greeting(s"$helloGreetingMessage, $greetPerson"))
 //  }
-//  //#first-test
+//  //#first-admin
 //}
 ////#full-example
